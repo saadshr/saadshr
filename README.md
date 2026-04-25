@@ -1,6 +1,5 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Saad%20Sahraoui&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Ingénierie%20Numérique%20·%20Data%20Science%20%26%20IA%20·%20ENSAM%20Rabat&descAlignY=58&descSize=16"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=🎓+1ère+Année+Ingénierie+Numérique+%7C+ENSAM+Rabat;🚗+Builder+of+Car+Rental+Full+Stack+App;⚙️+Laravel+%7C+React+%7C+Angular+%7C+MySQL;🤖+Learning+ML+%7C+Data+Science+%7C+AI;💡+Turning+ideas+into+real+applications...)](https://git.io/typing-svg)
 
@@ -19,10 +18,9 @@
 --- 
 
 🎯 About Me
-🎓 Engineering student at ENSAM Rabat, specializing in
-Ingénierie Numérique — Data Science & AI.
-Passionate about building clean, scalable and impactful
-digital solutions.
+🎓 Engineering student at ENSAM Rabat, specializing in Ingénierie Numérique — Data Science & AI.
+  Passionate about building clean, scalable and impactful
+  digital solutions.
 
 🔭 Currently working on full-stack web projects with Laravel & React
 🌱 Actively learning Python, Machine Learning & NoSQL
