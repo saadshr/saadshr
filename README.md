@@ -18,16 +18,17 @@
 
 --- 
 
-### 🧬 Who Am I ?
+🎯 About Me
+🎓 Engineering student at ENSAM Rabat, specializing in
+Ingénierie Numérique — Data Science & AI.
+Passionate about building clean, scalable and impactful
+digital solutions.
 
-```python
-class SaadSahraoui:
-    name       = "Saad Sahraoui"
-    school     = "ENSAM Rabat 🏛️"
-    degree     = "Ingénierie Numérique — Data Science & AI"
-    year       = "1ère Année (2025-2026)"
-    location   = "Rabat, Maroc 🇲🇦"
-    status     = "Open to collaborations & projects 🤝"
+🔭 Currently working on full-stack web projects with Laravel & React
+🌱 Actively learning Python, Machine Learning & NoSQL
+🧠 Strong background in Networks, Systems & Architecture
+⚡ I love problem-solving, agile teamwork & clean code
+📍 Based in Rabat, Morocco — open to remote opportunities
 
 
 | Module | Matières |
