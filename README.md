@@ -12,27 +12,30 @@
 </div>
 
 ---
+<div align="center">
 
-## 👨‍💻 About Me
+# 👋 Hi, I'm Saad Sahraoui
 
-Hi there! I'm **Saad Sahraoui**, a passionate and driven engineering student
-at **ENSAM Rabat** 🏛️, currently in my **1st year of Ingénierie Numérique —
-Data Science & AI** (2025–2026), based in **Rabat, Morocco** 🇲🇦.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%92%BB;Data+Science+%26+AI+Student+%F0%9F%A7%A0;Problem+Solver+%F0%9F%94%A5;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
 
-I'm a **full-stack developer** with a strong foundation in both **backend**
-(Laravel, PHP, REST API, JWT) and **frontend** (React, Angular, JavaScript,
-Bootstrap) development. I work with **MySQL** and explore **NoSQL** and
-**Oracle PL/SQL** on the database side, while diving into **Python** and
-**Machine Learning** to fuel my passion for data and AI.
+</div>
 
-Beyond web development, I have solid knowledge in **computer networks**
-(IPv6, LAN/WAN, Network Architecture) and **computer systems**
-(OS, Computer Architecture, C++), which gives me a well-rounded,
-engineering-oriented mindset.
+---
 
-I embrace **agile methodologies**, **UML modeling**, and **problem-solving**
-as core soft skills, and I'm always eager to learn, build, and collaborate
-on meaningful projects. 🚀
+<img align="right" alt="Coding" width="380"
+src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+
+### 🧬 Who Am I ?
+
+```python
+class SaadSahraoui:
+    name       = "Saad Sahraoui"
+    school     = "ENSAM Rabat 🏛️"
+    degree     = "Ingénierie Numérique — Data Science & AI"
+    year       = "1ère Année (2025-2026)"
+    location   = "Rabat, Maroc 🇲🇦"
+    status     = "Open to collaborations & projects 🤝"
+
 
 | Module | Matières |
 |--------|---------|
