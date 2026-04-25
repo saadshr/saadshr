@@ -14,16 +14,9 @@
 ---
 <div align="center">
 
-# 👋 Hi, I'm Saad Sahraoui
+# 👋 Hi, I'm Saad Sahraoui 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%92%BB;Data+Science+%26+AI+Student+%F0%9F%A7%A0;Problem+Solver+%F0%9F%94%A5;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
-
-</div>
-
----
-
-<img align="right" alt="Coding" width="380"
-src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+--- 
 
 ### 🧬 Who Am I ?
 
