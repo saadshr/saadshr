@@ -13,45 +13,26 @@
 
 ---
 
-## 👨‍💻 À propos de moi
+## 👨‍💻 About Me
 
-```python
-class SaadSahraoui:
-    def __init__(self):
-        self.name        = "Saad Sahraoui"
-        self.school      = "ENSAM Rabat 🏛️"
-        self.degree      = "Ingénierie Numérique — Data Science & IA"
-        self.year        = "1ère Année (2025-2026)"
-        self.location    = "Rabat, Maroc 🇲🇦"
+Hi there! I'm **Saad Sahraoui**, a passionate and driven engineering student
+at **ENSAM Rabat** 🏛️, currently in my **1st year of Ingénierie Numérique —
+Data Science & AI** (2025–2026), based in **Rabat, Morocco** 🇲🇦.
 
-    @property
-    def tech_stack(self):
-        return {
-            "backend":    ["Laravel", "PHP", "REST API", "JWT"],
-            "frontend":   ["React", "Angular", "JavaScript", "Bootstrap"],
-            "database":   ["MySQL", "NoSQL (en cours)", "Oracle PL/SQL (en cours)"],
-            "data":       ["Python (en cours)", "Machine Learning (en cours)"],
-            "networks":   ["IPv6", "LAN/WAN", "Architecture réseaux"],
-            "systems":    ["Architecture ordinateurs", "OS", "C++"],
-            "tools":      ["Git", "GitHub", "VS Code", "XAMPP", "Postman"],
-            "soft":       ["UML", "Méthodes agiles", "Problem solving"]
-        }
+I'm a **full-stack developer** with a strong foundation in both **backend**
+(Laravel, PHP, REST API, JWT) and **frontend** (React, Angular, JavaScript,
+Bootstrap) development. I work with **MySQL** and explore **NoSQL** and
+**Oracle PL/SQL** on the database side, while diving into **Python** and
+**Machine Learning** to fuel my passion for data and AI.
 
-    @property
-    def currently(self):
-        return {
-            "studying":   "S2 — Data Science, BDD Avancées, ML, Web",
-            "building":   "Car Rental System (Laravel + React)",
-            "learning":   ["Python for Data Science", "Machine Learning", "NoSQL"],
-            "goal":       "Devenir Full Stack + Data Engineer 🎯"
-        }
+Beyond web development, I have solid knowledge in **computer networks**
+(IPv6, LAN/WAN, Network Architecture) and **computer systems**
+(OS, Computer Architecture, C++), which gives me a well-rounded,
+engineering-oriented mindset.
 
-saad = SaadSahraoui()
-print(f"Welcome to {saad.name}'s GitHub! 🚀")
-```
-
----
-<br/>
+I embrace **agile methodologies**, **UML modeling**, and **problem-solving**
+as core soft skills, and I'm always eager to learn, build, and collaborate
+on meaningful projects. 🚀
 
 | Module | Matières |
 |--------|---------|
