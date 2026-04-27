@@ -26,7 +26,10 @@
 🌱 Actively learning Python, Machine Learning & NoSQL
 🧠 Strong background in Networks, Systems & Architecture
 ⚡ I love problem-solving, agile teamwork & clean code
-📍 Based in Rabat, Morocco — open to remote opportunities
+📍 Based in Rabat, Morocco — open to remote opportunities 
+## 📄 My CV
+
+👉 [Download my CV](./saad_sahraoui_cv.pdf)
 
 
 | Module | Matières |
