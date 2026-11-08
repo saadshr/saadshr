@@ -4,63 +4,139 @@
 
 <h1>Hi, I'm Saad Sahraoui</h1>
 
-<strong>AI &amp; Data Science Engineering Student | Machine Learning | Computer Vision | Full Stack Development</strong>
+**AI & Data Science Engineering Student | Machine Learning | Computer Vision | Full-Stack Development**
 
-<p>ENSAM Rabat · Mohammed V University · Morocco<br>
-<em>Ingénierie Numérique en Data Science, Intelligence Artificielle et Santé Digitale (INDIA)</em></p>
+ENSAM Rabat · Mohammed V University · Morocco<br>
+*Ingénierie Numérique en Data Science, Intelligence Artificielle et Santé Digitale (INDIA)*
 
-I build machine learning prototypes and full-stack applications, from data preparation and model evaluation to APIs and user interfaces.
+I build machine learning prototypes and full-stack applications that take data from preparation and evaluation to APIs and user interfaces.
 
-[![Download My Resume (PDF)](https://img.shields.io/badge/Download%20My%20Resume%20%28PDF%29-4F8EFF?style=flat-square&logoColor=F8FAFC)](./saad_sahraoui_cv.pdf) [![LinkedIn](https://img.shields.io/badge/LinkedIn-081526?style=flat-square&logoColor=F8FAFC)](https://linkedin.com/in/saadshr) [![Email](https://img.shields.io/badge/Email-081526?style=flat-square&logo=gmail&logoColor=F8FAFC)](mailto:saad20azmm@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-081526?style=flat-square&logo=github&logoColor=F8FAFC)](https://github.com/saadshr) [![Portfolio](https://img.shields.io/badge/Portfolio-081526?style=flat-square&logoColor=F8FAFC)](https://saadshr.github.io/)
+[![Download My Resume (PDF)][badge-cv]][cv] [![Email][badge-email]][email] [![GitHub][badge-github]][github] [![LinkedIn][badge-linkedin]][linkedin] [![Portfolio][badge-portfolio]][portfolio]
 
 </div>
 
 ## About Me
 
-I’m an engineering student based in Rabat, Morocco, specializing in machine learning and data science at ENSAM Rabat. My projects span computer vision for industrial applications, customer analytics, data processing, and backend development. I build with Laravel and React and am exploring deep learning, natural language processing, and NoSQL systems.
+I’m an engineering student based in Rabat, Morocco, specializing in AI and data science. I’m interested in industrial computer vision, customer analytics, data engineering, and backend development. I’m seeking PFA and PFE internships where I can contribute to applied AI, data, machine learning, or full-stack projects.
 
 ## Featured Projects
 
 | Project | Domain | Tech Stack | Highlights | Repository |
 | --- | --- | --- | --- | --- |
-| **Gripper Vision AI** · Industrial Gripper Prediction | Industrial AI, computer vision | Python, OpenCV, scikit-learn, Streamlit | Eurostyle Systems internship prototype that suggests gripper types for injection-molded parts from photos. | [Source](https://github.com/saadshr/gripper-vision-ai) |
-| **Customer Segmentation** · Unsupervised ML | Clustering, customer analytics | Python, pandas, NumPy, scikit-learn, Jupyter, Matplotlib, Seaborn | Compared three clustering methods on 440 wholesale customers using six spending variables. | [Source](https://github.com/saadshr/ml2-customer-segmentation) |
-| **Smart Fraud Detection System** | Applied ML, fraud detection | Python, pandas, scikit-learn, XGBoost, FastAPI, Streamlit | Compared logistic regression, Random Forest, and XGBoost on imbalanced transaction data. | [Source](https://github.com/saadshr/fraud_detection) |
-| **Data Processing API** | Data engineering, backend | Laravel, MySQL, Python, Redis | REST API with a Python ETL pipeline, SQL indexing, and Redis caching. | No public repository verified |
-| **SaadRent** · Car Rental System | Full-stack development | Laravel 11, React 18, MySQL, Bootstrap 5, JWT | Rental MVP with vehicle search, reservations, and customer and admin dashboards. | [Backend](https://github.com/saadshr/carrental-backend) · [Frontend](https://github.com/saadshr/carrental-frontend) |
+| **Gripper Vision AI** · Industrial Gripper Prediction | Industrial AI, computer vision | Python, OpenCV, scikit-learn, Streamlit | Suggests gripper types for injection-molded parts from photos. | [Source][gripper] |
+| **Customer Segmentation** · ML2 | Unsupervised ML, customer analytics | Python, pandas, NumPy, scikit-learn, Jupyter, Matplotlib, Seaborn | Benchmarks three clustering methods on 440 wholesale customers. | [Source][ml2] |
+| **Smart Fraud Detection System** | Applied ML, fraud detection | Python, pandas, scikit-learn, XGBoost, FastAPI, Streamlit | Compares classifiers on imbalanced transaction data. | [Source][fraud] |
+| **Data Processing API** | Data engineering, backend | Laravel, Python, MySQL, Redis | REST API backed by a Python ETL pipeline. | No public repository verified |
+| **SaadRent** · Car Rental System | Full-stack development | Laravel 11, React 18, MySQL, Bootstrap 5, JWT | Vehicle search, reservations, and role-based dashboards. | [Backend][rental-backend] · [Frontend][rental-frontend] |
 
 ### Gripper Vision AI · Industrial Gripper Prediction
 
-I built this prototype during an introductory engineering internship at Eurostyle Systems in Tangier. It uses OpenCV to segment an injection-molded part from a photo, then feeds shape measurements to a Random Forest classifier. The Streamlit interface shows the segmented part and the suggested gripper type.
+During my introductory engineering internship at Eurostyle Systems in Tangier, I built a prototype that suggests a gripper type for an injection-molded plastic part from a photo. OpenCV segments the part and extracts shape features for a scikit-learn Random Forest classifier. The Streamlit interface displays the segmentation and the suggested gripper type.
 
-![Python](https://img.shields.io/badge/Python-081526?style=flat-square&logo=python&logoColor=F8FAFC) ![OpenCV](https://img.shields.io/badge/OpenCV-081526?style=flat-square&logo=opencv&logoColor=F8FAFC) ![scikit-learn](https://img.shields.io/badge/scikit--learn-081526?style=flat-square&logo=scikitlearn&logoColor=F8FAFC) ![Streamlit](https://img.shields.io/badge/Streamlit-081526?style=flat-square&logo=streamlit&logoColor=F8FAFC)
+![Python][tech-python] ![OpenCV][tech-opencv] ![scikit-learn][tech-scikit-learn] ![Streamlit][tech-streamlit]
 
-[View Gripper Vision AI on GitHub](https://github.com/saadshr/gripper-vision-ai)
+[View on GitHub][gripper]
 
 ### Customer Segmentation · ML2
 
-I compared K-Means, Ward hierarchical agglomerative clustering, and DBSCAN on six spending variables from the [UCI Wholesale Customers dataset](https://archive.ics.uci.edu/dataset/292/wholesale+customers). K-Means with two clusters was the best compromise among the tested configurations, with a silhouette score of **0.2903** across all 440 customers, compared with **0.2585** for Ward. DBSCAN scored **0.2885** on the 210 non-noise observations and classified **52.27%** of the dataset as noise.
+I compared K-Means, Ward hierarchical clustering, and DBSCAN on six spending variables from the [UCI Wholesale Customers dataset][uci]. K-Means with two clusters offered the best compromise among the tested configurations. Its silhouette score was **0.2903**, compared with **0.2585** for Ward, both evaluated on all 440 customers. DBSCAN scored **0.2885** on the **210 non-noise observations** and classified **52.27%** of customers as noise. PCA was used only to visualize the clusters in two dimensions.
 
-![Python](https://img.shields.io/badge/Python-081526?style=flat-square&logo=python&logoColor=F8FAFC) ![pandas](https://img.shields.io/badge/pandas-081526?style=flat-square&logo=pandas&logoColor=F8FAFC) ![scikit-learn](https://img.shields.io/badge/scikit--learn-081526?style=flat-square&logo=scikitlearn&logoColor=F8FAFC) ![Jupyter](https://img.shields.io/badge/Jupyter-081526?style=flat-square&logo=jupyter&logoColor=F8FAFC)
+![Python][tech-python] ![pandas][tech-pandas] ![NumPy][tech-numpy] ![scikit-learn][tech-scikit-learn] ![Jupyter][tech-jupyter]
 
-[View Customer Segmentation ML2 on GitHub](https://github.com/saadshr/ml2-customer-segmentation)
+[View on GitHub][ml2]
+
+### Smart Fraud Detection System
+
+I built a pipeline to compare logistic regression, Random Forest, and XGBoost on imbalanced transaction data. The project includes a FastAPI prediction endpoint and a Streamlit dashboard for exploring the results.
+
+![Python][tech-python] ![scikit-learn][tech-scikit-learn] ![XGBoost][tech-xgboost] ![FastAPI][tech-fastapi] ![Streamlit][tech-streamlit]
+
+[View on GitHub][fraud]
+
+### Data Processing API
+
+I built a Laravel REST API with a Python ETL pipeline to prepare data for downstream use. The project uses MySQL indexing and Redis caching to support repeated queries.
+
+![Laravel][tech-laravel] ![Python][tech-python] ![MySQL][tech-mysql] ![Redis][tech-redis]
+
+### SaadRent · Car Rental System
+
+I built a full-stack rental MVP with a Laravel REST API and a React frontend. Customers can browse vehicles and manage reservations, while administrators manage inventory and bookings through a separate dashboard. The API uses JWT authentication.
+
+![Laravel][tech-laravel] ![React][tech-react] ![MySQL][tech-mysql] ![Bootstrap][tech-bootstrap]
+
+View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 
 ## Tech Stack
 
 | Area | Tools |
 | --- | --- |
-| **Programming** | <img height="28" src="https://skillicons.dev/icons?i=python,java,cpp,js&amp;theme=dark" alt="Python, Java, C++, JavaScript"> <img height="28" src="https://img.shields.io/badge/SQL-081526?style=for-the-badge" alt="SQL"><br>Python, Java, C++, JavaScript, SQL |
-| **Machine Learning & Data Science** | <img height="28" src="https://skillicons.dev/icons?i=sklearn,pandas,numpy,opencv,jupyter,matplotlib&amp;theme=dark" alt="scikit-learn, pandas, NumPy, OpenCV, Jupyter, Matplotlib"> <img height="28" src="https://img.shields.io/badge/XGBoost-081526?style=for-the-badge" alt="XGBoost"><br>scikit-learn, pandas, NumPy, OpenCV, XGBoost, Jupyter, Matplotlib |
+| **Programming** | <img height="28" src="https://skillicons.dev/icons?i=python,java,cpp,js&amp;theme=dark" alt="Python, Java, C++, JavaScript"> <img height="28" src="https://img.shields.io/badge/SQL-0E7490?style=for-the-badge" alt="SQL"><br>Python, Java, C++, JavaScript, SQL |
+| **Machine Learning & Data Science** | <img height="28" src="https://skillicons.dev/icons?i=sklearn,opencv&amp;theme=dark" alt="scikit-learn and OpenCV"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/pandas/pandas-original.svg" alt="pandas"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/numpy/numpy-original.svg" alt="NumPy"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/jupyter/jupyter-original.svg" alt="Jupyter"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib"> <img height="28" src="https://img.shields.io/badge/XGBoost-6941C6?style=for-the-badge" alt="XGBoost"><br>scikit-learn, pandas, NumPy, OpenCV, XGBoost, Jupyter, Matplotlib |
 | **Backend & Frontend** | <img height="28" src="https://skillicons.dev/icons?i=laravel,php,react,angular,html,css,bootstrap&amp;theme=dark" alt="Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap"><br>Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap |
 | **Databases** | <img height="28" src="https://skillicons.dev/icons?i=mysql,mongodb,redis&amp;theme=dark" alt="MySQL, MongoDB, Redis"><br>MySQL, MongoDB, Redis |
 | **Developer Tools** | <img height="28" src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux&amp;theme=dark" alt="Git, GitHub, Docker, VS Code, Linux"><br>Git, GitHub, Docker, VS Code, Linux |
 
 ## GitHub Activity
 
-[GitHub profile and contributions](https://github.com/saadshr) · [Public repositories](https://github.com/saadshr?tab=repositories)
+<div align="center">
+
+[![Profile views][badge-views]][github] [![GitHub followers][badge-followers]][followers]
+
+<img width="292" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=saadshr&amp;theme=tokyonight" alt="GitHub activity summary">
+<img width="292" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saadshr&amp;theme=tokyonight" alt="Top languages by repository count">
+
+<img width="495" src="https://streak-stats.demolab.com/?user=saadshr&amp;theme=tokyonight&amp;disable_animations=true" alt="GitHub contribution streak">
+
+</div>
+
+<sub>Views are tracked by Komarev. The activity summary and language ranking come from GitHub Profile Summary Cards, and the streak comes from GitHub Readme Streak Stats.</sub>
+
+[GitHub profile and contributions][github] · [Public repositories][repositories]
 
 ## Resume & Professional Profile
 
-For PFA and PFE internship opportunities, my resume covers my engineering education, technical skills, and selected projects.
+My resume covers my engineering education, technical skills, and selected projects for PFA and PFE internship opportunities.
 
-[![Download My Resume (PDF)](https://img.shields.io/badge/Download%20My%20Resume%20%28PDF%29-4F8EFF?style=flat-square&logoColor=F8FAFC)](./saad_sahraoui_cv.pdf) [![LinkedIn](https://img.shields.io/badge/LinkedIn-081526?style=flat-square&logoColor=F8FAFC)](https://linkedin.com/in/saadshr) [![Portfolio](https://img.shields.io/badge/Portfolio-081526?style=flat-square&logoColor=F8FAFC)](https://saadshr.github.io/)
+[![Download My Resume (PDF)][badge-cv]][cv]
+
+## Let’s Connect
+
+[![Email][badge-email]][email] [![LinkedIn][badge-linkedin]][linkedin] [![GitHub][badge-github]][github] [![Download My Resume (PDF)][badge-cv]][cv]
+
+[cv]: ./saad_sahraoui_cv.pdf
+[email]: mailto:saad20azmm@gmail.com
+[github]: https://github.com/saadshr
+[linkedin]: https://www.linkedin.com/in/saad-sahraoui/
+[portfolio]: https://saadshr.github.io/
+[followers]: https://github.com/saadshr?tab=followers
+[repositories]: https://github.com/saadshr?tab=repositories
+[gripper]: https://github.com/saadshr/gripper-vision-ai
+[ml2]: https://github.com/saadshr/ml2-customer-segmentation
+[fraud]: https://github.com/saadshr/fraud_detection
+[rental-backend]: https://github.com/saadshr/carrental-backend
+[rental-frontend]: https://github.com/saadshr/carrental-frontend
+[uci]: https://archive.ics.uci.edu/dataset/292/wholesale+customers
+
+[badge-cv]: https://img.shields.io/badge/Download%20My%20Resume%20%28PDF%29-125CB9?style=for-the-badge
+[badge-email]: https://img.shields.io/badge/Email-A9420C?style=for-the-badge&logo=gmail&logoColor=white
+[badge-github]: https://img.shields.io/badge/GitHub-6941C6?style=for-the-badge&logo=github&logoColor=white
+[badge-linkedin]: https://img.shields.io/badge/LinkedIn-0E7490?style=for-the-badge
+[badge-portfolio]: https://img.shields.io/badge/Portfolio-176B53?style=for-the-badge
+[badge-views]: https://komarev.com/ghpvc/?username=saadshr&label=Profile%20Views&color=5B36A8&style=flat-square
+[badge-followers]: https://img.shields.io/github/followers/saadshr?label=Followers&logo=github&color=125CB9&style=flat-square
+
+[tech-python]: https://img.shields.io/badge/Python-125CB9?style=flat-square&logo=python&logoColor=white
+[tech-opencv]: https://img.shields.io/badge/OpenCV-176B53?style=flat-square&logo=opencv&logoColor=white
+[tech-scikit-learn]: https://img.shields.io/badge/scikit--learn-A9420C?style=flat-square&logo=scikitlearn&logoColor=white
+[tech-streamlit]: https://img.shields.io/badge/Streamlit-A63661?style=flat-square&logo=streamlit&logoColor=white
+[tech-pandas]: https://img.shields.io/badge/pandas-6941C6?style=flat-square&logo=pandas&logoColor=white
+[tech-numpy]: https://img.shields.io/badge/NumPy-0E7490?style=flat-square&logo=numpy&logoColor=white
+[tech-jupyter]: https://img.shields.io/badge/Jupyter-A9420C?style=flat-square&logo=jupyter&logoColor=white
+[tech-xgboost]: https://img.shields.io/badge/XGBoost-6941C6?style=flat-square
+[tech-fastapi]: https://img.shields.io/badge/FastAPI-176B53?style=flat-square&logo=fastapi&logoColor=white
+[tech-laravel]: https://img.shields.io/badge/Laravel-A63661?style=flat-square&logo=laravel&logoColor=white
+[tech-mysql]: https://img.shields.io/badge/MySQL-125CB9?style=flat-square&logo=mysql&logoColor=white
+[tech-redis]: https://img.shields.io/badge/Redis-A9420C?style=flat-square&logo=redis&logoColor=white
+[tech-react]: https://img.shields.io/badge/React-0E7490?style=flat-square&logo=react&logoColor=white
+[tech-bootstrap]: https://img.shields.io/badge/Bootstrap-6941C6?style=flat-square&logo=bootstrap&logoColor=white
