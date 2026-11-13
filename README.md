@@ -6,7 +6,7 @@
 
 **AI & Data Science Engineering Student | Machine Learning | Computer Vision | Full-Stack Development**
 
-ENSAM Rabat · Mohammed V University · Morocco<br>
+ENSAM Rabat · Mohammed V University · Morocco · Tanger <br>
 *Ingénierie Numérique en Data Science, Intelligence Artificielle et Santé Digitale (INDIA)*
 
 I build machine learning prototypes and full-stack applications that take data from preparation and evaluation to APIs and user interfaces.
