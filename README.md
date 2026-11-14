@@ -96,7 +96,11 @@ View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 
 ## Certifications
 
-- **Supervised Learning with scikit-learn** — DataCamp, November 14, 2026
+[![DataCamp](https://img.shields.io/badge/DataCamp-05192D?style=flat-square&logo=datacamp&logoColor=03EF62)](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
+
+**[Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)**
+
+November 14, 2026 &middot; 4 hours
 
 ## Resume & Professional Profile
 
