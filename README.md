@@ -94,6 +94,10 @@ View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 
 [GitHub profile and contributions][github] · [Public repositories][repositories]
 
+## Certifications
+
+- **Supervised Learning with scikit-learn** — DataCamp, November 14, 2026
+
 ## Resume & Professional Profile
 
 My resume covers my engineering education, technical skills, and selected projects for PFA and PFE internship opportunities.
