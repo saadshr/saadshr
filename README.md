@@ -9,7 +9,7 @@
 ENSAM Rabat · Mohammed V University · Morocco · Tanger <br>
 *Ingénierie Numérique en Data Science, Intelligence Artificielle et Santé Digitale (INDIA)*
 
-I build machine learning prototypes and full-stack applications that take data from preparation and evaluation to APIs and user interfaces.
+I build machine learning prototypes, business intelligence dashboards, and full-stack applications that take data from preparation to analysis, APIs, and user interfaces.
 
 [![Download My Resume (PDF)][badge-cv]][cv] [![Email][badge-email]][email] [![GitHub][badge-github]][github] [![LinkedIn][badge-linkedin]][linkedin] [![Portfolio][badge-portfolio]][portfolio]
 
@@ -17,17 +17,26 @@ I build machine learning prototypes and full-stack applications that take data f
 
 ## About Me
 
-I’m an engineering student based in Rabat, Morocco, specializing in AI and data science. I’m interested in industrial computer vision, customer analytics, data engineering, and backend development. I’m seeking PFA and PFE internships where I can contribute to applied AI, data, machine learning, or full-stack projects.
+I’m an engineering student based in Rabat, Morocco, specializing in AI and data science. I’m interested in industrial computer vision, business intelligence, customer analytics, data engineering, and backend development. I’m seeking PFA and PFE internships where I can contribute to applied AI, data, machine learning, or full-stack projects.
 
 ## Featured Projects
 
 | Project | Domain | Tech Stack | Highlights | Repository |
 | --- | --- | --- | --- | --- |
+| **Smart Industrial Maintenance BI** · MetroPT-3 | Business intelligence, industrial IoT | Power BI, Power Query (M), DAX, Python, LaTeX | Three dashboards analyze 1,516,948 sensor observations and four documented incident periods. | [Source][metropt-bi] |
 | **Gripper Vision AI** · Industrial Gripper Prediction | Industrial AI, computer vision | Python, OpenCV, scikit-learn, Streamlit | Suggests gripper types for injection-molded parts from photos. | [Source][gripper] |
 | **Customer Segmentation** · ML2 | Unsupervised ML, customer analytics | Python, pandas, NumPy, scikit-learn, Jupyter, Matplotlib, Seaborn | Benchmarks three clustering methods on 440 wholesale customers. | [Source][ml2] |
 | **Smart Fraud Detection System** | Applied ML, fraud detection | Python, pandas, scikit-learn, XGBoost, FastAPI, Streamlit | Compares classifiers on imbalanced transaction data. | [Source][fraud] |
 | **Data Processing API** | Data engineering, backend | Laravel, Python, MySQL, Redis | REST API backed by a Python ETL pipeline. | No public repository verified |
 | **SaadRent** · Car Rental System | Full-stack development | Laravel 11, React 18, MySQL, Bootstrap 5, JWT | Vehicle search, reservations, and role-based dashboards. | [Backend][rental-backend] · [Frontend][rental-frontend] |
+
+### Smart Industrial Maintenance BI · MetroPT-3
+
+At ENSAM Rabat, I worked with Hassan El Hajjam and Yassine Saddane on a business intelligence project for a railway air compressor. We prepared the MetroPT-3 sensor data with Python and Power Query (M), built a dimensional model, and used DAX across three Power BI dashboard pages covering an overview, sensor monitoring, and incident analysis with OLAP. Of **1,516,948 sensor observations**, **29,954 (1.97%)** fell within the **four documented incident periods**. We documented the work in a LaTeX report.
+
+![Power BI][tech-powerbi] ![Power Query (M)][tech-power-query] ![DAX][tech-dax] ![Python][tech-python] ![pandas][tech-pandas] ![LaTeX][tech-latex]
+
+[View on GitHub][metropt-bi] · [Read the report (PDF)][metropt-report]
 
 ### Gripper Vision AI · Industrial Gripper Prediction
 
@@ -71,6 +80,7 @@ View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 
 | Area | Tools |
 | --- | --- |
+| **Business Intelligence & Reporting** | ![Power BI][tech-powerbi] ![Power Query (M)][tech-power-query] ![DAX][tech-dax] ![LaTeX][tech-latex] |
 | **Programming** | <img height="28" src="https://skillicons.dev/icons?i=python,java,cpp,js&amp;theme=dark" alt="Python, Java, C++, JavaScript"> <img height="28" src="https://img.shields.io/badge/SQL-0E7490?style=for-the-badge" alt="SQL"><br>Python, Java, C++, JavaScript, SQL |
 | **Machine Learning & Data Science** | <img height="28" src="https://skillicons.dev/icons?i=sklearn,opencv&amp;theme=dark" alt="scikit-learn and OpenCV"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/pandas/pandas-original.svg" alt="pandas"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/numpy/numpy-original.svg" alt="NumPy"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/jupyter/jupyter-original.svg" alt="Jupyter"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib"> <img height="28" src="https://img.shields.io/badge/XGBoost-6941C6?style=for-the-badge" alt="XGBoost"><br>scikit-learn, pandas, NumPy, OpenCV, XGBoost, Jupyter, Matplotlib |
 | **Backend & Frontend** | <img height="28" src="https://skillicons.dev/icons?i=laravel,php,react,angular,html,css,bootstrap&amp;theme=dark" alt="Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap"><br>Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap |
@@ -119,6 +129,8 @@ My resume covers my engineering education, technical skills, and selected projec
 [portfolio]: https://saadshr.github.io/
 [followers]: https://github.com/saadshr?tab=followers
 [repositories]: https://github.com/saadshr?tab=repositories
+[metropt-bi]: https://github.com/saadshr/smart-industrial-maintenance-bi
+[metropt-report]: https://github.com/saadshr/smart-industrial-maintenance-bi/blob/main/BI_MetroPT_Report/output/BI_MetroPT_Report.pdf
 [gripper]: https://github.com/saadshr/gripper-vision-ai
 [ml2]: https://github.com/saadshr/ml2-customer-segmentation
 [fraud]: https://github.com/saadshr/fraud_detection
@@ -135,6 +147,10 @@ My resume covers my engineering education, technical skills, and selected projec
 [badge-followers]: https://img.shields.io/github/followers/saadshr?label=Followers&logo=github&color=125CB9&style=flat-square
 
 [tech-python]: https://img.shields.io/badge/Python-125CB9?style=flat-square&logo=python&logoColor=white
+[tech-powerbi]: https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=111111
+[tech-power-query]: https://img.shields.io/badge/Power%20Query%20(M)-176B53?style=flat-square
+[tech-dax]: https://img.shields.io/badge/DAX-6941C6?style=flat-square
+[tech-latex]: https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white
 [tech-opencv]: https://img.shields.io/badge/OpenCV-176B53?style=flat-square&logo=opencv&logoColor=white
 [tech-scikit-learn]: https://img.shields.io/badge/scikit--learn-A9420C?style=flat-square&logo=scikitlearn&logoColor=white
 [tech-streamlit]: https://img.shields.io/badge/Streamlit-A63661?style=flat-square&logo=streamlit&logoColor=white
