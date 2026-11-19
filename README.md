@@ -23,12 +23,21 @@ I’m an engineering student based in Rabat, Morocco, specializing in AI and dat
 
 | Project | Domain | Tech Stack | Highlights | Repository |
 | --- | --- | --- | --- | --- |
+| **SocketHub-C** · TCP Chat & FTP | Network programming, systems | ![C11][tech-c] ![WinSock2][tech-winsock] ![PowerShell][tech-powershell] | Four native Windows programs: TCP messaging and passive FTP with file access checks and automated tests. | [Source][sockethub] |
 | **Smart Industrial Maintenance BI** · MetroPT-3 | Business intelligence, industrial IoT | Power BI, Power Query (M), DAX, Python, LaTeX | Three dashboards analyze 1,516,948 sensor observations and four documented incident periods. | [Source][metropt-bi] |
 | **Gripper Vision AI** · Industrial Gripper Prediction | Industrial AI, computer vision | Python, OpenCV, scikit-learn, Streamlit | Suggests gripper types for injection-molded parts from photos. | [Source][gripper] |
 | **Customer Segmentation** · ML2 | Unsupervised ML, customer analytics | Python, pandas, NumPy, scikit-learn, Jupyter, Matplotlib, Seaborn | Benchmarks three clustering methods on 440 wholesale customers. | [Source][ml2] |
 | **Smart Fraud Detection System** | Applied ML, fraud detection | Python, pandas, scikit-learn, XGBoost, FastAPI, Streamlit | Compares classifiers on imbalanced transaction data. | [Source][fraud] |
 | **Data Processing API** | Data engineering, backend | Laravel, Python, MySQL, Redis | REST API backed by a Python ETL pipeline. | No public repository verified |
 | **SaadRent** · Car Rental System | Full-stack development | Laravel 11, React 18, MySQL, Bootstrap 5, JWT | Vehicle search, reservations, and role-based dashboards. | [Backend][rental-backend] · [Frontend][rental-frontend] |
+
+### SocketHub-C · TCP Chat & FTP
+
+I built a university network programming project in C11 using WinSock2 on Windows. Four native programs implement a TCP messaging service and a passive FTP service with separate control and data connections. The shared I/O layer handles partial sends and line framing; the FTP server supports environment-configured credentials, file access checks under `ftp_root/`, and uploads without overwriting existing files. PowerShell scripts build the programs and exercise chat exchanges, file transfers, SHA-256 comparisons, and curl interoperability. Designed for local demonstrations, the services run on loopback without encryption.
+
+![C11][tech-c] ![WinSock2][tech-winsock] ![GCC][tech-gcc] ![PowerShell][tech-powershell] ![CMD][tech-cmd] ![curl][tech-curl]
+
+[View on GitHub][sockethub] · [Architecture][sockethub-architecture] · [Validation notes][sockethub-validation]
 
 ### Smart Industrial Maintenance BI · MetroPT-3
 
@@ -81,10 +90,11 @@ View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 | Area | Tools |
 | --- | --- |
 | **Business Intelligence & Reporting** | ![Power BI][tech-powerbi] ![Power Query (M)][tech-power-query] ![DAX][tech-dax] ![LaTeX][tech-latex] |
-| **Programming** | <img height="28" src="https://skillicons.dev/icons?i=python,java,cpp,js&amp;theme=dark" alt="Python, Java, C++, JavaScript"> <img height="28" src="https://img.shields.io/badge/SQL-0E7490?style=for-the-badge" alt="SQL"><br>Python, Java, C++, JavaScript, SQL |
+| **Programming** | <img height="28" src="https://skillicons.dev/icons?i=python,java,c,cpp,js&amp;theme=dark" alt="Python, Java, C, C++, JavaScript"> <img height="28" src="https://img.shields.io/badge/SQL-0E7490?style=for-the-badge" alt="SQL"><br>Python, Java, C, C++, JavaScript, SQL |
 | **Machine Learning & Data Science** | <img height="28" src="https://skillicons.dev/icons?i=sklearn,opencv&amp;theme=dark" alt="scikit-learn and OpenCV"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/pandas/pandas-original.svg" alt="pandas"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/numpy/numpy-original.svg" alt="NumPy"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/jupyter/jupyter-original.svg" alt="Jupyter"> <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib"> <img height="28" src="https://img.shields.io/badge/XGBoost-6941C6?style=for-the-badge" alt="XGBoost"><br>scikit-learn, pandas, NumPy, OpenCV, XGBoost, Jupyter, Matplotlib |
 | **Backend & Frontend** | <img height="28" src="https://skillicons.dev/icons?i=laravel,php,react,angular,html,css,bootstrap&amp;theme=dark" alt="Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap"><br>Laravel, PHP, React, Angular, HTML5, CSS3, Bootstrap |
 | **Databases** | <img height="28" src="https://skillicons.dev/icons?i=mysql,mongodb,redis&amp;theme=dark" alt="MySQL, MongoDB, Redis"><br>MySQL, MongoDB, Redis |
+| **Network Programming** | ![C11][tech-c] ![WinSock2][tech-winsock] ![GCC][tech-gcc] ![PowerShell][tech-powershell] ![CMD][tech-cmd] ![curl][tech-curl]<br>TCP sockets, passive FTP, Win32 file APIs, Windows terminal workflows |
 | **Developer Tools** | <img height="28" src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux&amp;theme=dark" alt="Git, GitHub, Docker, VS Code, Linux"><br>Git, GitHub, Docker, VS Code, Linux |
 
 ## GitHub Activity
@@ -129,6 +139,9 @@ My resume covers my engineering education, technical skills, and selected projec
 [portfolio]: https://saadshr.github.io/
 [followers]: https://github.com/saadshr?tab=followers
 [repositories]: https://github.com/saadshr?tab=repositories
+[sockethub]: https://github.com/saadshr/socket-network-programming
+[sockethub-architecture]: https://github.com/saadshr/socket-network-programming/blob/main/docs/architecture.md
+[sockethub-validation]: https://github.com/saadshr/socket-network-programming/blob/main/tests/validation.md
 [metropt-bi]: https://github.com/saadshr/smart-industrial-maintenance-bi
 [metropt-report]: https://github.com/saadshr/smart-industrial-maintenance-bi/blob/main/BI_MetroPT_Report/output/BI_MetroPT_Report.pdf
 [gripper]: https://github.com/saadshr/gripper-vision-ai
@@ -164,3 +177,10 @@ My resume covers my engineering education, technical skills, and selected projec
 [tech-redis]: https://img.shields.io/badge/Redis-A9420C?style=flat-square&logo=redis&logoColor=white
 [tech-react]: https://img.shields.io/badge/React-0E7490?style=flat-square&logo=react&logoColor=white
 [tech-bootstrap]: https://img.shields.io/badge/Bootstrap-6941C6?style=flat-square&logo=bootstrap&logoColor=white
+
+[tech-c]: https://img.shields.io/badge/C11-00599C?style=flat-square&logo=c&logoColor=white
+[tech-winsock]: https://img.shields.io/badge/WinSock2-0078D4?style=flat-square
+[tech-gcc]: https://img.shields.io/badge/GCC-A42E2B?style=flat-square&logo=gnu&logoColor=white
+[tech-powershell]: https://img.shields.io/badge/PowerShell-5391FE?style=flat-square
+[tech-cmd]: https://img.shields.io/badge/CMD-181717?style=flat-square
+[tech-curl]: https://img.shields.io/badge/curl-073551?style=flat-square&logo=curl&logoColor=white
