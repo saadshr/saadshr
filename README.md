@@ -23,7 +23,7 @@ I’m an engineering student based in Rabat, Morocco, specializing in AI and dat
 
 | Project | Domain | Tech Stack | Highlights | Repository |
 | --- | --- | --- | --- | --- |
-| **SocketHub-C** · TCP Chat & FTP | Network programming, systems | ![C11][tech-c] ![WinSock2][tech-winsock] ![PowerShell][tech-powershell] | Four native Windows programs: TCP messaging and passive FTP with file access checks and automated tests. | [Source][sockethub] |
+| **SocketHub-C** · TCP Chat & FTP | Network programming, systems | C11, WinSock2, PowerShell | Four native Windows programs: TCP messaging and passive FTP with file access checks and automated tests. | [Source][sockethub] |
 | **Smart Industrial Maintenance BI** · MetroPT-3 | Business intelligence, industrial IoT | Power BI, Power Query (M), DAX, Python, LaTeX | Three dashboards analyze 1,516,948 sensor observations and four documented incident periods. | [Source][metropt-bi] |
 | **Gripper Vision AI** · Industrial Gripper Prediction | Industrial AI, computer vision | Python, OpenCV, scikit-learn, Streamlit | Suggests gripper types for injection-molded parts from photos. | [Source][gripper] |
 | **Customer Segmentation** · ML2 | Unsupervised ML, customer analytics | Python, pandas, NumPy, scikit-learn, Jupyter, Matplotlib, Seaborn | Benchmarks three clustering methods on 440 wholesale customers. | [Source][ml2] |
