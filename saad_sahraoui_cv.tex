@@ -1,0 +1,103 @@
+% CV autonome en UTF-8 -- aucun fichier externe nécessaire.
+% Overleaf : importer ce fichier, le sélectionner comme document principal,
+% puis choisir le compilateur pdfLaTeX et cliquer sur Recompiler.
+% MiKTeX : ouvrir ce fichier dans TeXworks, choisir pdfLaTeX et compiler.
+% Ou dans un terminal : pdflatex -interaction=nonstopmode -halt-on-error saad_sahraoui_cv.tex
+% MiKTeX Console sert à installer/mettre à jour les paquets, pas à éditer le CV.
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=12.7mm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{pdftitle={Saad Sahraoui - CV},pdfauthor={Saad Sahraoui}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\setlist[itemize]{leftmargin=19pt,labelsep=8pt,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt}
+\newcommand{\cvsection}[1]{%
+  \par\vspace{4pt}{\fontsize{13}{15}\selectfont\scshape #1}\par
+  \vspace{1pt}\hrule\vspace{4pt}}
+\newcommand{\cventry}[2]{\textbf{#1}\hfill #2\par}
+\newcommand{\cvtech}[1]{#1\par}
+\newcommand{\cvbullet}[1]{\begin{itemize}\item #1\end{itemize}}
+\newcommand{\cvprojectspace}{\par\vspace{5pt}}
+\newcommand{\sep}{\enspace\textperiodcentered\enspace}
+
+\begin{document}
+\fontsize{11}{14.25}\selectfont
+
+\begin{center}
+  {\fontsize{28}{30}\selectfont\textbf{SAAD SAHRAOUI}}\par
+  \vspace{3pt}
+  {\fontsize{9}{11}\selectfont
+  \href{tel:+212635678771}{\underline{+212 635 678 771}}\enspace|\enspace
+  \href{mailto:saad20azmm@gmail.com}{\underline{saad20azmm@gmail.com}}\enspace|\enspace
+  \href{https://www.linkedin.com/in/saad-sahraoui/}{\underline{linkedin.com/in/saad-sahraoui}}\enspace|\enspace
+  \href{https://github.com/saadshr}{\underline{github.com/saadshr}}}\par
+  \vspace{2pt}
+  {\fontsize{9}{11}\selectfont Étudiant ingénieur en IA et Data Science - ENSAM Rabat | Rabat, Maroc | Disponible pour un stage technique}
+\end{center}
+\vspace{-6pt}
+
+\cvsection{Résumé professionnel}
+Étudiant ingénieur à l'ENSAM Rabat, je conçois des pipelines de données, des modèles d'apprentissage automatique et des API. J'ai appliqué ces compétences à des projets de vision par ordinateur, de segmentation de clients et de détection de fraude bancaire.
+
+\cvsection{Formation}
+\cventry{Diplôme d'ingénieur en IA et Data Science | ENSAM Rabat}{2025 - 2028}
+\cventry{Classes préparatoires intégrées | ENSAM Rabat}{2023 - 2025}
+\cventry{Baccalauréat Sciences Mathématiques | Mention Très Bien}{2022}
+
+\cvsection{Expérience professionnelle}
+\cventry{\href{https://github.com/saadshr/gripper-vision-ai}{\underline{Stagiaire en vision par ordinateur | Eurostyle Systems, Tanger}}}{Été 2026 \sep 2 mois}
+\cvtech{Python \sep OpenCV \sep scikit-learn \sep Streamlit}
+\cvbullet{Stage d'initiation sur un prototype de sélection de préhenseurs pour pièces plastiques injectées. Segmentation des photos, extraction de mesures géométriques et recommandation dans Streamlit.}
+
+\cvsection{Projets significatifs}
+\cventry{\href{https://github.com/saadshr/smart-industrial-maintenance-bi}{\underline{Smart Industrial Maintenance BI - MetroPT-3}}}{ENSAM Rabat \sep 2026}
+\cvtech{Power BI \sep Power Query (M) \sep DAX \sep Python \sep LaTeX}
+\cvbullet{Projet d'équipe sur 1\,516\,948 observations de capteurs d'un compresseur ferroviaire. Préparation des données, modèle dimensionnel et trois pages Power BI pour analyser quatre périodes d'incident.}
+
+\cvprojectspace
+\cventry{\href{https://github.com/saadshr/ml2-customer-segmentation}{\underline{Customer Segmentation - Segmentation non supervisée}}}{}
+\cvtech{Python \sep pandas \sep NumPy \sep scikit-learn \sep Jupyter \sep Matplotlib \sep Seaborn}
+\cvbullet{Comparaison de K-Means, de la classification hiérarchique (Ward) et de DBSCAN sur 440 clients du jeu UCI Wholesale Customers. K-Means à 2 groupes retenu (silhouette de 0,2903). La PCA sert à la visualisation.}
+
+\cvprojectspace
+\cventry{Smart Fraud Detection System - Détection de fraude bancaire}{Avr. 2026}
+\cvtech{Python \sep scikit-learn \sep XGBoost \sep FastAPI \sep Streamlit \sep SMOTE \sep pandas}
+\cvbullet{Comparaison de trois modèles avec SMOTE à l'entraînement. Sur 56\,746 transactions de test, la forêt aléatoire a détecté 76 fraudes sur 95 (rappel de 80\,\%, F1 de 0,65, ROC-AUC de 0,98). Développement d'une API et d'un tableau de bord.}
+
+\cvprojectspace
+\cventry{API de traitement de données - Ingénierie des données}{2025}
+\cvtech{Laravel \sep MySQL \sep API REST \sep Python \sep Redis \sep ETL}
+\cvbullet{API Laravel de plus de 50 points d'accès pour l'ingestion de CSV et JSON. Pipeline ETL Python (temps de traitement réduit de 60\,\%), indexation SQL et cache Redis (latence de 850 à 120 ms).}
+
+\cvprojectspace
+\cventry{SocketHub-C - Chat TCP et transfert de fichiers FTP}{2026}
+\cvtech{C11 \sep WinSock2 \sep TCP/IP \sep PowerShell}
+\cvbullet{Développement de clients et serveurs de chat TCP et FTP passif sous Windows. Gestion des messages fragmentés et des envois partiels ; transferts validés avec curl et SHA-256.}
+
+\cvsection{Compétences techniques}
+\begin{itemize}
+  \item \textbf{IA et Data Science} \sep Python, scikit-learn, XGBoost, OpenCV, pandas, NumPy, SMOTE, Matplotlib, Seaborn.
+  \item \textbf{Backend} \sep Laravel, PHP, API REST, JWT, pipelines ETL, Redis.
+  \item \textbf{Bases de données} \sep MySQL (indexation et optimisation), Oracle PL/SQL, MongoDB.
+  \item \textbf{Outils et méthodes} \sep Git, GitHub, Docker, Postman, Linux, Agile, UML, POO, MVC.
+  \item \textbf{Frontend} \sep React, Angular, JavaScript, Bootstrap 5.
+\end{itemize}
+
+\cvsection{Certifications}
+\cvbullet{Supervised Learning with scikit-learn - DataCamp, 2026}
+
+\cvsection{Langues et atouts}
+\begin{itemize}
+  \item \textbf{Langues} \sep Arabe (maternel), français (C1), anglais (B2).
+  \item \textbf{Atouts} \sep Résolution de problèmes, apprentissage rapide, esprit d'équipe et autonomie.
+\end{itemize}
+
+\end{document}
