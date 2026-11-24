@@ -128,6 +128,14 @@ My resume covers my engineering education, technical skills, and selected projec
 
 [![Download My Resume (PDF)][badge-cv]][cv]
 
+### ✍️ Random Dev Quote
+
+<div align="center">
+
+[![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
+
+</div>
+
 ## Let’s Connect
 
 [![Email][badge-email]][email] [![LinkedIn][badge-linkedin]][linkedin] [![GitHub][badge-github]][github] [![Download My Resume (PDF)][badge-cv]][cv]
