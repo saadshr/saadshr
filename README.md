@@ -114,6 +114,14 @@ View on GitHub · [Backend][rental-backend] · [Frontend][rental-frontend]
 
 [GitHub profile and contributions][github] · [Public repositories][repositories]
 
+### 🏆 GitHub Trophies
+
+<div align="center">
+
+[![GitHub trophies for saadshr](https://trophy.ryglcloud.net/?username=saadshr&theme=tokyonight&no-frame=true&column=4&margin-w=10&margin-h=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
 ## Certifications
 
 [![DataCamp](https://img.shields.io/badge/DataCamp-05192D?style=flat-square&logo=datacamp&logoColor=03EF62)](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
