@@ -140,7 +140,7 @@ My resume covers my engineering education, technical skills, and selected projec
 
 <div align="center">
 
-[![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
+[![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight)](https://github.com/PiyushSuthar/github-readme-quotes)
 
 </div>
 
