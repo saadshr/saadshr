@@ -144,6 +144,20 @@ My resume covers my engineering education, technical skills, and selected projec
 
 </div>
 
+### Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake.svg">
+  <img src="./assets/contribution-snake.svg" alt="Animated snake moving through Saad Sahraoui's GitHub contribution graph" width="100%">
+</picture>
+
+</div>
+
+<sub>Generated from my GitHub contributions and refreshed daily with [Platane/snk](https://github.com/Platane/snk).</sub>
+
 ## Let’s Connect
 
 [![Email][badge-email]][email] [![LinkedIn][badge-linkedin]][linkedin] [![GitHub][badge-github]][github] [![Download My Resume (PDF)][badge-cv]][cv]
